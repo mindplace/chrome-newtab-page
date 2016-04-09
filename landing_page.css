@@ -19,7 +19,7 @@ body {
   background-image: url("himalaya_temple.jpg");
   background-size: cover !important;
   background-attachment: fixed;
-  margin: 0;
+  margin: 0 1%;
 }
 
 a {
@@ -63,9 +63,10 @@ main {
   box-sizing: border-box;
   width: 100%;
   margin: 5% auto 0;
-  /*background: rgba(240, 215, 194, 0.8);*/
-  /*color: #2C3940;*/
-  color: white;
+  border-radius: 20px;
+  border: 1px solid white;
+  background: rgba(229, 186, 97, 0.5);
+  color: black;
   font-family: 'Marck Script', cursive;
   font-weight: light;
   font-size: 4em;
