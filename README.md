@@ -1,4 +1,4 @@
-### Personalized Chrome landing page
+## Personalized Chrome landing page
 
 #### Contents:
 - JSON manifest file to populate info for the extension in Chrome
