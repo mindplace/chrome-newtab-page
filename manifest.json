@@ -1,0 +1,12 @@
+{
+"name": "Landing_MindPlace",
+"description": "My customized landing page",
+"version": "1.0.0",
+"manifest_version": 3,
+"icons": {
+"128": "leaf-icon.png"
+},
+"chrome_url_overrides": {
+  "newtab": "landing_page.html"
+  }
+}
