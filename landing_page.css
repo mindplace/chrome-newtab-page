@@ -30,7 +30,7 @@ a {
 }
 
 main {
-  margin: 12.5% 0 5%;
+  margin: 5% 0 5%;
 }
 
 .DBC-row, .github-row, .mindplace-row {
@@ -57,9 +57,10 @@ main {
 #dark {
   background: rgba(69, 93, 120, 0.7);
   color: white;
+  text-decoration: none;
 }
 
-.quote {
+/*.quote {
   box-sizing: border-box;
   width: 100%;
   margin: 5% auto 0;
@@ -76,4 +77,4 @@ main {
 
 .quote p {
   margin: 0;
-}
+}*/
