@@ -1,5 +1,10 @@
 {
 "name": "Landing_MindPlace",
+"content_scripts": [{
+  "evernote": "evernote-sdk-minified.js",
+  "my-script": "chrome-newtab-scripts.js",
+  "jquery": "jquery.min.js"
+}],
 "description": "My customized landing page",
 "version": "1.0.0",
 "manifest_version": 3,

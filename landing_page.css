@@ -1,25 +1,9 @@
-/*potential backgrounds:
-
-mountain and trees
-background-image: url("https://images.unsplash.com/photo-1454982523318-4b6396f39d3a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=4e47e1875683e075de238e0c5cddf812");
-
-mountain, trees, water
-background-image: url("https://images.unsplash.com/photo-1444136723005-b0f64ef04acc?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=4d3578989e74ed05f14d44150f494096");
-
-misty mountains
-background-image: url("https://images.unsplash.com/photo-1443998486566-cc8482a99bfd?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=c8e0b05d4128a0c34d478fd0f2f1c3c2");
-
-lone hiker looking down on mountainous path
-background-image: url("https://images.unsplash.com/photo-1444405406630-ac78b6e0b1fb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=b7b77594c5756fbf76f577285979cceb");
-
-*/
-
-
 body {
-  background-image: url("himalaya_temple.jpg");
+  background-image: url("mountain_snow_cliff.jpg");
   background-size: cover !important;
   background-attachment: fixed;
   margin: 0 1%;
+  background-position: center;
 }
 
 a {
@@ -46,12 +30,14 @@ main {
 
 .DBC-row p, .github-row p, .mindplace-row p {
   background: rgba(111, 144, 161, 0.7);
+  border-radius: 5px;
   border: 1px solid white;
-  width: 20%;
+  width: 15%;
   margin: 1%;
   padding: 0;
   text-align: center;
   font-size: large;
+  overflow: hidden;
 }
 
 #dark {
@@ -59,22 +45,3 @@ main {
   color: white;
   text-decoration: none;
 }
-
-/*.quote {
-  box-sizing: border-box;
-  width: 100%;
-  margin: 5% auto 0;
-  border-radius: 20px;
-  border: 1px solid white;
-  background: rgba(229, 186, 97, 0.5);
-  color: black;
-  font-family: 'Marck Script', cursive;
-  font-weight: light;
-  font-size: 4em;
-  text-align: center;
-  padding: 1.5%;
-}
-
-.quote p {
-  margin: 0;
-}*/
