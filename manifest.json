@@ -1,7 +1,6 @@
 {
 "name": "Landing_MindPlace",
 "content_scripts": [{
-  "evernote": "evernote-sdk-minified.js",
   "my-script": "chrome-newtab-scripts.js",
   "jquery": "jquery.min.js"
 }],
